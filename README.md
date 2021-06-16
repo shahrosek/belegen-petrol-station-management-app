@@ -10,5 +10,4 @@ How to Run the code on Android Studios
 6. Attach an android device with debugging mode enabled.
 7. At the top menu, go to Run, then click on Run. The app will be installed on your device for testing purposes.
 
-Functionality of Belegen
 Belegen is a Petrol Pump Management System application developed for android devices. It contains the functionality of keeping the management records of petrol pump. There are two user groups for this application. Manager and the employees. Manager is responsible for maintaining the records on this application. Manager can add an employee, contractor. Manager can delete an employee. Manager can update employee, contractor. Manager can view the information of employee, contractor. Manager can add daily sales for petrol, diesel and lubricants. Manager can update the price of petrol, diesel and lubricants. Manager can refill stock for petrol, diesel and lubricants. Manager can view monthly summary. Manager can take attendance of his employees. Employees can only view their profile information.
