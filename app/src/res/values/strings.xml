@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Belegen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="title_activity_forgot_password">forgot_password</string>
+    <string name="send">Send</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="recover_password">Recover Password</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="belegen">BELEGEN</string>
+    <string name="textview">TextView</string>
+    <string name="view">View</string>
+    <string name="present">Present</string>
+    <string name="update_information">Update Information</string>
+
+    <string name="addcontractor">Add Contractor</string>
+    <string name="firstname">First Name</string>
+    <string name="enterfirstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="enterlastname">Enter Last Name</string>
+    <string name="address">Address</string>
+    <string name="enteraddress">Enter Address</string>
+    <string name="contactnum">Contact Number 1</string>
+    <string name="cnic">CNIC</string>
+    <string name="contractamount">Contract Amount</string>
+    <string name="status">Status</string>
+    <string name="addemployee">Add Employee</string>
+    <string name="updateemployee">Update Employee</string>
+    <string name="update">Update</string>
+    <string name="save">Save</string>
+    <string name="phone1">0xxx</string>
+    <string name="phone2">1xxxxxx</string>
+    <string name="cnic1">xxxxx</string>
+    <string name="cnic2">xxxxxxx</string>
+    <string name="cnic3">x</string>
+    <string name="dash">-</string>
+    <string name="updatecontractor">Update Contractor</string>
+    <string name="firstnameinvalid">Please enter a valid First Name</string>
+    <string name="lastnameinvalid">Please enter a valid Last Name</string>
+    <string name="emailerror">Please enter a valid Email</string>
+    <string name="mobileerror">Please enter a valid Number</string>
+    <string name="addresserror">Please enter an Address</string>
+    <string name="cnicerror">Please enter a valid CNIC</string>
+    <string name="contractamounterror">Please enter a valid Contract Amount</string>
+</resources>
