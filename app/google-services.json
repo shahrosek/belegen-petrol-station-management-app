@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "881710456129",
+    "firebase_url": "https://belegen-fall-2019.firebaseio.com",
+    "project_id": "belegen-fall-2019",
+    "storage_bucket": "belegen-fall-2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881710456129:android:1f08678cfeba95555f15c0",
+        "android_client_info": {
+          "package_name": "com.example.belegen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881710456129-v2okvq68puesb914l6gciceg64jnuhal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.belegen",
+            "certificate_hash": "be08dc6f38fa279538d80025799c6885a7f33e79"
+          }
+        },
+        {
+          "client_id": "881710456129-tccnu190vbans2qdnh1eg9acp0rpllg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwDo9ExDUqzFssSCZl78ukvT_mgyfPdwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881710456129-tccnu190vbans2qdnh1eg9acp0rpllg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
