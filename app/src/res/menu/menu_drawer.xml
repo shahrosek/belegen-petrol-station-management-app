@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/db"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_db"
+        android:checkable="true"/>
+    <item android:id="@+id/view_emp"
+        android:title="View Employees"
+        android:icon="@drawable/ic_emp_list"/>
+    <item android:id="@+id/add_emp"
+        android:title="Add Employee"
+        android:icon="@drawable/ic_emp_add"/>
+    <item android:id="@+id/view_cont"
+        android:title="View Contractors"
+        android:icon="@drawable/ic_cont_list"/>
+    <item android:id="@+id/add_cont"
+        android:title="Add Contractor"
+        android:icon="@drawable/ic_cont_add"/>
+    <item android:id="@+id/upd_stock"
+        android:title="Update Fuel Stock"
+        android:icon="@drawable/ic_upd_stock"/>
+    <item android:id="@+id/add_sale"
+        android:title="Add Daily Sales"
+        android:icon="@drawable/ic_add_sale"/>
+    <item android:id="@+id/upd_prices"
+        android:title="Update Prices"
+        android:icon="@drawable/ic_upd_price"/>
+    <item android:id="@+id/cashflow"
+        android:title="Manage Cashflow"
+        android:icon="@drawable/ic_cashflow"/>
+    <item android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"/>
+</group>
+</menu>

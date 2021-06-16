@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toTopOf="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp">
+
+
+
+            <TextView
+                android:id="@+id/firstnametextview"
+                style="@style/input_label_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/firstname"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/enterfirstnameedittext"
+                style="@style/input_style"
+                android:hint="@string/enterfirstname"
+                android:inputType="textPersonName"
+                app:layout_constraintTop_toBottomOf="@id/firstnametextview"
+                app:layout_constraintStart_toStartOf="@id/firstnametextview"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/lastnametextView"
+                style="@style/input_label_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/lastname"
+                app:layout_constraintTop_toBottomOf="@id/enterfirstnameedittext"
+                app:layout_constraintStart_toStartOf="@id/enterfirstnameedittext"/>
+
+
+            <EditText
+                android:id="@+id/enterlastnameedittext"
+                style="@style/input_style"
+                android:hint="@string/lastname"
+                android:inputType="textPersonName"
+                app:layout_constraintTop_toBottomOf="@id/lastnametextView"
+                app:layout_constraintStart_toStartOf="@id/lastnametextView"/>
+
+            <TextView
+                android:id="@+id/addresstextview"
+                style="@style/input_label_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/address"
+                app:layout_constraintTop_toBottomOf="@id/enterlastnameedittext"
+                app:layout_constraintStart_toStartOf="@id/enterlastnameedittext"/>
+
+            <EditText
+                android:id="@+id/enteraddresseditText"
+                style="@style/input_style"
+                android:hint="@string/enteraddress"
+                android:inputType="textPersonName"
+                app:layout_constraintTop_toBottomOf="@id/addresstextview"
+                app:layout_constraintStart_toStartOf="@id/addresstextview"/>
+
+            <TextView
+                android:id="@+id/contacttextview"
+                style="@style/input_label_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/contactnum"
+                app:layout_constraintTop_toBottomOf="@id/entercnic1"
+                app:layout_constraintStart_toStartOf="@id/entercnic1"
+                />
+
+            <EditText
+                android:id="@+id/contact1"
+                style="@style/input_style"
+                android:hint="XXXX - YYYYYYY"
+                android:inputType="number"
+                app:layout_constraintStart_toStartOf="@id/contacttextview"
+                app:layout_constraintTop_toBottomOf="@id/contacttextview" />
+
+            <TextView
+                android:id="@+id/contacttv2"
+                style="@style/input_label_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Contact Number 2"
+                app:layout_constraintTop_toBottomOf="@id/contact1"
+                app:layout_constraintStart_toStartOf="@id/contact1"
+                />
+
+            <EditText
+                android:id="@+id/contact2"
+                style="@style/input_style"
+                android:hint="XXXX - YYYYYYY"
+                android:inputType="number"
+                app:layout_constraintStart_toStartOf="@id/contacttv2"
+                app:layout_constraintTop_toBottomOf="@id/contacttv2" />
+
+
+            <TextView
+                android:id="@+id/cnictextview"
+                style="@style/input_label_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cnic"
+                android:layout_marginTop="20dp"
+                app:layout_constraintTop_toBottomOf="@id/enteraddresseditText"
+                app:layout_constraintStart_toStartOf="@id/enteraddresseditText"/>
+
+            <EditText
+                android:id="@+id/entercnic1"
+                style="@style/input_style"
+                android:layout_width="70dp"
+                android:hint="@string/cnic1"
+                android:inputType="number"
+                app:layout_constraintTop_toBottomOf="@id/cnictextview"
+                app:layout_constraintStart_toStartOf="@id/cnictextview"
+                />
+
+            <TextView
+                android:id="@+id/dash1"
+                style="@style/input_label_style"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="14dp"
+                android:text="@string/dash"
+                app:layout_constraintLeft_toRightOf="@id/entercnic1"
+                app:layout_constraintTop_toBottomOf="@id/cnictextview"
+                android:layout_marginLeft="5dp"/>
+
+            <EditText
+                android:id="@+id/entercnic2"
+                style="@style/input_style"
+                android:layout_width="92dp"
+                android:hint="@string/cnic2"
+                android:inputType="number"
+                app:layout_constraintStart_toEndOf="@id/dash1"
+                app:layout_constraintTop_toBottomOf="@id/cnictextview"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dash2"
+                style="@style/input_label_style"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:text="@string/dash"
+                app:layout_constraintTop_toBottomOf="@id/cnictextview"
+                app:layout_constraintLeft_toRightOf="@id/entercnic2"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="5dp"/>
+
+            <EditText
+                android:id="@+id/entercnic3"
+                style="@style/input_style"
+                android:layout_width="32dp"
+                android:hint="@string/cnic3"
+                android:inputType="number"
+                app:layout_constraintTop_toBottomOf="@id/cnictextview"
+                app:layout_constraintLeft_toRightOf="@id/dash2"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update"
+                app:layout_constraintTop_toBottomOf="@id/contact2"
+                app:layout_constraintStart_toStartOf="@id/contact2"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="80dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
